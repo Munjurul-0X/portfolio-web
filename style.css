@@ -1,0 +1,95 @@
+
+body{
+  font-family: "Open Sans", sans-serif;
+  font-weight:400;
+}
+
+
+/** Shared Style **/
+
+.dark2{
+color: rgba(71, 71, 71, 1);
+
+}
+.primariy-btn{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+header{
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 150px;
+}
+
+nav h2 span{
+ color: #FD6E0A;
+}
+nav h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.nav-itm{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(71, 71, 71, 1);
+    
+}
+
+
+.hero-box{
+display: flex;
+justify-content: space-between;
+gap: 193px;
+margin: 0px 35px 0px 158px;
+align-items: center;
+}
+.hero-name{
+    font-weight: bold;
+    font-size: 85px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+.hero-wel{
+    font-size: 45px;
+    font-weight: 700;
+   margin-bottom: 0px;
+}
+
+.hero-info{
+max-width: 580px;
+}
+.hero-ph{
+    max-width: 580px;
+    
+}
+.dc-btn{
+    margin-right: 15px;
+}
+.hero-disc{
+    font-size: 18px;
+    font-weight: 400;
+}
