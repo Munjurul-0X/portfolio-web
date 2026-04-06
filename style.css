@@ -190,3 +190,47 @@ max-width: 580px;
 .skill:hover{
     box-shadow: 0 8px 16px rgba(138, 56, 200, 0.514);
 }
+
+
+
+
+
+
+.summariy-section{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.summariy-section-pm{
+    display: flex;
+    gap:30px;
+    margin-top: 60px;
+    
+} 
+.summariy-section-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.summariy-box{
+    max-width: 500px;
+}
+
+.exprience-box{
+     max-width: 500px;
+}
+
+.exprience-sub-title{
+    margin-bottom: 2px;
+}
+.companiy{
+    margin-top: 2px;
+}
+.cv-btn{
+   margin-left: 310px;
+   margin-top: 40px;
+}
