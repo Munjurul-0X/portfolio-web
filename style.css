@@ -68,7 +68,7 @@ align-items: center;
 }
 .hero-name{
     font-weight: bold;
-    font-size: 85px;
+    font-size: 50px;
     margin-bottom: 0px;
     margin-top: 0px;
 
@@ -92,4 +92,59 @@ max-width: 580px;
 .hero-disc{
     font-size: 18px;
     font-weight: 400;
+}
+
+.about-section{
+    max-width: 750px;
+    margin: 150px auto;
+    background-color: #FFF8F3 ;
+    padding: 121px 146px;
+}
+.about-pr{
+    max-width: 800px;
+    max-height: 320px;
+    border: 2px solid black;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+.about-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.about-dec{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 4px;
+}
+
+.about-itms{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    margin-top: 4px;
+    
+}
+.itms-p{
+    margin-top: 0%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.items-mame{
+    margin-bottom: 0%;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(71, 71, 71, 1);
+
 }
