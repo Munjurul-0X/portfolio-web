@@ -233,4 +233,61 @@ max-width: 580px;
 .cv-btn{
    margin-left: 310px;
    margin-top: 40px;
+   margin-bottom: 50px;
+}
+
+
+
+
+
+
+.footer-section{
+    background-color: #FFF8F3;
+   
+    
+}
+
+.footer-pm{
+    
+    display: flex;
+    gap: 50px;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.footer-text{
+    max-width: 570px;
+}
+
+
+footer input[type = "text"], footer input[type = "email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 5px 50px;
+    
+    margin-bottom: 20px;
+}
+footer textarea{
+    margin-bottom: 1px;
+}
+
+.from-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-contact-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.submit-btn{
+    margin-left: 820px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+   
 }
